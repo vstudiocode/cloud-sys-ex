@@ -15,5 +15,5 @@ jobs:
     - name: Repo Visualizer
       uses: githubocto/repo-visualizer@0.9.1
       with:
-        # A path (relative to the root of your repo) to where you would like the diagram to live. For example: images/diagram.svg. Default: diagram.svg
         output_file: diagram.svg
+        should_push: false
