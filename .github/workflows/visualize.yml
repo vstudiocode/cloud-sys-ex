@@ -17,3 +17,4 @@ jobs:
       with:
         output_file: diagram.svg
         should_push: false
+        artifact_name: artifact
